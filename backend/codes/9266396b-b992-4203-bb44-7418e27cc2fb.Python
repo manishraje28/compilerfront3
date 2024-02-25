@@ -1,0 +1,4 @@
+import calendar
+y=2021
+m=6
+print(calendar.month(y,m))

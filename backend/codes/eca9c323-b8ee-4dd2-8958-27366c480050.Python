@@ -1,0 +1,8 @@
+def printmsg(self,x,y):
+ if type(x)==int:
+ print("integer message=",x)
+ else:
+ print("Character message=",x)
+disp=display()
+disp.printmsg(20,"abc")
+disp.printmsg("abc",20)
